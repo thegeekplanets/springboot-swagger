@@ -19,7 +19,7 @@ DOCKER COMMANDS
 
 4. Create application jar file by "mvn clean install"
 5. docker build -t springboot-swagger:latest .
-6. docker run 5c3f70a90ae7
+6. docker run -d -p 8080:8080 harikanure007/springboot-swagger
 7. docker stop 843f1a70a9fd
 8. docker login -u harikanure007@gmail.com -p XXXX docker.io
 9. docker tag springboot-swagger:latest harikanure007/springboot-swagger   -- if not set the tag then we may get access denied error.
