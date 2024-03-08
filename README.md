@@ -17,10 +17,10 @@ DOCKER COMMANDS
 	ADD target/springboot-swagger-0.0.1-SNAPSHOT.jar springboot-swagger.jar
 	ENTRYPOINT ["java","-jar","/springboot-swagger.jar"]
 
-3. Create application jar file by "mvn clean install"
-4. docker build -t springboot-swagger:latest .
-5. docker run 5c3f70a90ae7
-6. docker stop 843f1a70a9fd
-7. docker login -u harikanure007@gmail.com -p XXXX docker.io
-8. docker tag springboot-swagger:latest harikanure007/springboot-swagger   -- if not set the tag then we may get access denied error.
-9. docker push harikanure007/springboot-swagger
+4. Create application jar file by "mvn clean install"
+5. docker build -t springboot-swagger:latest .
+6. docker run 5c3f70a90ae7
+7. docker stop 843f1a70a9fd
+8. docker login -u harikanure007@gmail.com -p XXXX docker.io
+9. docker tag springboot-swagger:latest harikanure007/springboot-swagger   -- if not set the tag then we may get access denied error.
+10. docker push harikanure007/springboot-swagger
