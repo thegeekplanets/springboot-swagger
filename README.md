@@ -24,3 +24,11 @@ DOCKER COMMANDS
 8. docker login -u harikanure007@gmail.com -p XXXX docker.io
 9. docker tag springboot-swagger:latest harikanure007/springboot-swagger   -- if not set the tag then we may get access denied error.
 10. docker push harikanure007/springboot-swagger
+
+
+Docker commands for local mysql deployment
+
+1. docker pull mysql
+2. docker run -p 3307:3306 --name mysqlcontainer -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=traveldev mysql
+3. winpty docker exec -it mysqlcontainer bash -l
+4. mysql -uroot -proot -hlocalhost -P3307
