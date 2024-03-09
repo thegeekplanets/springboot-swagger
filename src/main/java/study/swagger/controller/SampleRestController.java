@@ -15,7 +15,7 @@ public class SampleRestController {
 	@GetMapping(path = "/hello", produces = "application/json")
 	@Operation(summary = "Say Hello", description = "Hello Message from API")
 	public String helloMessage() {
-		return "Hello World";
+		return "Hello new World";
 	}
 
 }
