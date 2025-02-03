@@ -1,9 +1,7 @@
 ## Swagger UI URL
 http://localhost:8080/swagger-ui/index.html
 
-
 ## DOCKER COMMANDS
-
 ### 1. Docker images
 
 	OUTPUT:
@@ -35,3 +33,6 @@ http://localhost:8080/swagger-ui/index.html
 ### 2. docker run -p 3307:3306 --name mysqlcontainer -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=traveldev mysql
 ### 3. winpty docker exec -it mysqlcontainer bash -l
 ### 4. mysql -uroot -proot -hlocalhost -P3307
+
+## Run Springboot Docker Application
+### docker run -p 8080:8080 harikanure007/springboot-swagger
