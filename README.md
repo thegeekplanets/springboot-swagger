@@ -7,7 +7,7 @@ http://localhost:8080/swagger-ui/index.html
 	OUTPUT:
 	$ docker images
 	REPOSITORY                         TAG       IMAGE ID       CREATED          SIZE
-	harikanure007/springboot-swagger   latest    5c3f70a90ae7   21 minutes ago   351MB
+	thegeekplanets/springboot-swagger   latest    5c3f70a90ae7   21 minutes ago   351MB
 	springboot-swagger                 latest    5c3f70a90ae7   21 minutes ago   351MB
 	tomcat                             latest    405afe63d576   44 hours ago     455MB
 	hello-world                        latest    d2c94e258dcb   10 months ago    13.3kB
@@ -23,9 +23,9 @@ http://localhost:8080/swagger-ui/index.html
 ### 5. docker build -t springboot-swagger:latest .
 ### 6. docker run -d -p 8080:8080 springboot-swagger
 ### 7. docker stop 843f1a70a9fd
-### 8. docker login -u harikanure007@gmail.com -p XXXX docker.io
-### 9. docker tag springboot-swagger:latest harikanure007/springboot-swagger   -- if not set the tag then we may get access denied error.
-### 10. docker push harikanure007/springboot-swagger
+### 8. docker login -u thegeekplanets@gmail.com -p XXXX docker.io
+### 9. docker tag springboot-swagger:latest thegeekplanets/springboot-swagger   -- if not set the tag then we may get access denied error.
+### 10. docker push thegeekplanets/springboot-swagger
 
 ## Docker commands for local mysql deployment
 
@@ -35,4 +35,4 @@ http://localhost:8080/swagger-ui/index.html
 ### 4. mysql -uroot -proot -hlocalhost -P3307
 
 ## Run Springboot Docker Application
-### docker run -p 8080:8080 harikanure007/springboot-swagger
+### docker run -p 8080:8080 thegeekplanets/springboot-swagger
